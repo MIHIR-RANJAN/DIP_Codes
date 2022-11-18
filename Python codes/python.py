@@ -316,9 +316,9 @@ cv2.destroyAllWindows()
 
 #LAB 4
 
-Write and execute programs for image logical 
-operator. 
-	1.1 AND operation between two image. 
+#Write and execute programs for image logical operator. 
+
+#1.1 AND operation between two image. 
 import cv2
 import numpy as np
 img1 = cv2.imread('LAB_1.1.png') 
