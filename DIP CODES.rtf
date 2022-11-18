@@ -14,7 +14,7 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh17700\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 LAB 1 - \
+\f0\fs34 \cf0 LAB 1 - \
 \
 #Read and Display the Image\
 \
@@ -232,7 +232,7 @@ LAB 3\
 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f1\fs30 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
 Q1. Plot histogram \cb1 \
 \cb3 Input code:\cb1 \uc0\u8232 
 \f2 \cb3 \dn8 \'95 
@@ -284,8 +284,7 @@ histr = cv.calcHist([img],[i],None,[256],[0,256]) plt.plot(histr,color = col)\cb
 \cf2 \
 \
 \pard\pardeftab720\sa240\partightenfactor0
-\ls2\ilvl0
-\fs32 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 Q1. Histogram with or without mask \cb1 \
 \ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 import cv2 as cv\cb1 \uc0\u8232 \cb3 		import numpy as np\cb1 \uc0\u8232 \cb3 		from matplotlib import pyplot as plt\cb1 \uc0\u8232 \cb3 		img = cv.imread('/Users/snigdhaasthana/Desktop/my_image.jpeg',0) \
@@ -316,14 +315,13 @@ plt.xlim([0,256]) \cb1 \
 \ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 plt.show() \
 \pard\tx566\pardeftab720\sa240\partightenfactor0
-
-\fs24 \cf2 \cb1 \
+\cf2 \cb1 \
 \pard\pardeftab720\partightenfactor0
 
-\f2\fs53\fsmilli26667 \cf2 \cb3 \
+\f2 \cf2 \cb3 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f1\fs32 \cf2 histogram equalization \cb1 \
+\f1 \cf2 histogram equalization \cb1 \
 \pard\pardeftab720\partightenfactor0
 
 \f2 \cf2 \cb3 \
@@ -342,11 +340,9 @@ Q2 b. histogram equalization of low contrast image \cb1 \
 res = np.hstack((img, equ)) \cb1 \
 \cb3 cv2.imshow('image',res) \cb1 \
 \cb3 cv2.waitKey(0) \
-cv2.destroyAllWindows()
-\fs40  \
+cv2.destroyAllWindows() \
 \
-
-\fs32 Q3 Arithmetic operations Add\
+Q3 Arithmetic operations Add\
  \cb1 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa426\partightenfactor0
 \ls3\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
@@ -379,12 +375,12 @@ cv2.destroyAllWindows()
 \ls3\ilvl0
 \f1 \cb3 \kerning1\expnd0\expndtw0 \up0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 \dn3 cv2.destroyAllWindows() 
-\f2\fs42\fsmilli21333 \cb1 \up0 \uc0\u8232 \dn3 \
+\f2 \cb1 \up0 \uc0\u8232 \dn3 \
 \pard\tx566\pardeftab720\sa426\partightenfactor0
 \cf2 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f1\fs32 \cf2 \cb3 \up0 Q3 subtraction \
+\f1 \cf2 \cb3 \up0 Q3 subtraction \
 \cb1 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa586\partightenfactor0
 \ls4\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
@@ -452,11 +448,9 @@ Q3 Multiple\
 \f2 \cb1 \
 \ls5\ilvl0
 \f1 \cb3 \kerning1\expnd0\expndtw0 \up0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
-\dn6 if cv2.waitKey(0) & 0xff == 27:
-\fs58\fsmilli29333  \
+\dn6 if cv2.waitKey(0) & 0xff == 27: \
 \pard\pardeftab720\sa240\partightenfactor0
-\ls5\ilvl0\cf2 \kerning1\expnd0\expndtw0 \up0 {\listtext	\uc0\u8226 	}    
-\fs32 \expnd0\expndtw0\kerning0
+\ls5\ilvl0\cf2 \kerning1\expnd0\expndtw0 \up0 {\listtext	\uc0\u8226 	}    \expnd0\expndtw0\kerning0
 cv2.destroyAllWindows() \
 \ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 \
@@ -464,16 +458,10 @@ cv2.destroyAllWindows() \
 \
 \ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 \
-\pard\pardeftab720\sa240\partightenfactor0
-\ls5\ilvl0
-\fs117\fsmilli58667 \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
-\fs32 \expnd0\expndtw0\kerning0
-Q3 division
-\fs117\fsmilli58667  
-\fs24 \cb1 \
+\ls5\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Q3 division \cb1 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa720\partightenfactor0
-\ls5\ilvl0
-\fs32 \cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\ls5\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
 \dn8 division 
 \f2 \cb1 \
 \ls5\ilvl0
@@ -519,10 +507,10 @@ LAB 4\
 \f1 \cf2 \cb1 \
 
 \f0 \cf4 \cb5 operator. 
-\f1\fs24 \cf2 \cb1 \
+\f1 \cf2 \cb1 \
 \pard\tx566\pardeftab720\sa240\partightenfactor0
 
-\f2\fs32 \cf2 \kerning1\expnd0\expndtw0 	
+\f2 \cf2 \kerning1\expnd0\expndtw0 	
 \f0 \cf4 \cb5 \expnd0\expndtw0\kerning0
 1.1 AND operation between two image. 
 \f1 \cf2 \cb1 \
@@ -687,12 +675,12 @@ cv2.waitKey(0)\
 cv2.destroyAllWindows()\
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f1\fs24 \cf2 \up0 \
+\f1 \cf2 \up0 \
 \
 \
 \pard\tx566\pardeftab720\sa426\partightenfactor0
 
-\f2\fs32 \cf2 \dn3 #High pass filter - Gaussian filter\
+\f2 \cf2 \dn3 #High pass filter - Gaussian filter\
 \
 import cv2\
 img = cv2.imread("LAB_5.jpeg")\
@@ -1049,7 +1037,8 @@ for i in circles[0,:]:\
 cv.imshow('detected circles',cimg)\
 cv.waitKey(0)\
 cv.destroyAllWindows()\
-\
+
+\fs32 \
 \
 \
 \
